@@ -179,3 +179,97 @@ a#link-1:hover {
   padding: 10px;
   text-decoration: none;
 }
+
+/* Styling Form CSS */
+
+#container1 {
+  width: 600px;
+  margin: 0 auto;
+}
+
+fieldset{
+  padding: 40px;
+  border: solid 1px #aaa;
+  background: url('images/blue_background.jpg');
+}
+
+fieldset legend{
+  background: white;
+  padding: 10px;
+  border: solid 1px #aaa;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  padding: 8px;
+  border: solid 1px #333;
+  border-top: none;
+  display: block;
+  width: 50%;
+  margin: 0 0 20px;
+  font-size: 14px;
+  color: #777;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+}
+
+textarea{
+  resize: none;
+}
+
+input[type="submit"]{
+  background: url('images/button_background.jpg');
+  height: 40px;
+  padding: 0 40px;
+  border: solid 1px #777;
+}
+
+label{
+  font-size: 20px;
+  text-transform: uppercase;
+  background: url('images/red_background.jpg');
+  display: block;
+  width: 50%;
+  padding: 10px;
+  color: white;
+}
+
+
+/* CSS Floats */
+
+#floats {
+  background: #d41;
+}
+
+#container1{
+  background: white;
+  padding: 20px;
+}
+
+#image1{
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+#main-col {
+  width: 350px;
+  float: left;
+}
+
+#side-bar {
+  width: 220px;
+  float: right;
+
+}
+
+.clear{
+  clear: both;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
